@@ -1,4 +1,4 @@
-# Place new order
+# Place new orderr
 # method = 'GET'
 # timestamp = str(int(time.time()+1))
 # path = '/v2/orders'
