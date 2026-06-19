@@ -9,14 +9,14 @@
 # signature_data = method + timestamp + path + query_string + payload
 # signature = generate_signature(api_secret, signature_data)
 import hashlib
-import hmac
+import hmac,json
 import requests
 import time
 from config import *
 
 base_url = 'https://api.india.delta.exchange'
-api_key = "xWEGAYPyuSrSKn8mdvD0l0S07e31Lp"
-api_secret = "r9eywOUADxTmYaC2QenesEHLMjqM3C2efGQrGAks3NWcILIktJdihrKAp0r3"
+api_key = API_K
+api_secret = API_S
                                         #generating signature
 def generate_signature(secret, message):
     message = bytes(message, 'utf-8')
@@ -43,6 +43,9 @@ headers = {
 
 # r = requests.get('https://api.india.delta.exchange/v2/positions/margined', params=query_string, headers = headers)
 r = requests.get(url+query_string, headers = headers)
+data=r.json()
+with open('symbol.json','w') as f:
+    # f.write(r.json())
+    json.dump(data,f)
 
-
-print(r.json())
+# print()

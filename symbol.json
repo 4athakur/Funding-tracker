@@ -1,0 +1,9 @@
+{
+    "error": {
+        "code": "ip_not_whitelisted_for_api_key",
+        "context": {
+            "client_ip": "2401:4900:b923:9aed:7d1b:9059:b4c6:1dfa"
+        }
+    },
+    "success": false
+}
