@@ -1,0 +1,1561 @@
+{
+    "success": true,
+    "result": {
+        "symbol": "ARCUSD",
+        "sell": [
+            {
+                "size": 2890,
+                "depth": "2.89E+3",
+                "price": "0.07686"
+            }
+        ],
+        "buy": [
+            {
+                "size": 4166,
+                "depth": "4166",
+                "price": "0.07663"
+            }
+        ],
+        "last_updated_at": 1784161404075000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "USUALUSD",
+        "sell": [
+            {
+                "size": 74341,
+                "depth": "74341",
+                "price": "0.00901"
+            }
+        ],
+        "buy": [
+            {
+                "size": 94341,
+                "depth": "94341",
+                "price": "0.00899"
+            }
+        ],
+        "last_updated_at": 1784161406898000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ZECUSD",
+        "sell": [
+            {
+                "size": 790,
+                "depth": "7.9E+2",
+                "price": "569.91"
+            }
+        ],
+        "buy": [
+            {
+                "size": 363,
+                "depth": "363",
+                "price": "569.87"
+            }
+        ],
+        "last_updated_at": 1784161409305000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "AUCTIONUSD",
+        "sell": [
+            {
+                "size": 2010,
+                "depth": "2.01E+3",
+                "price": "3.335"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2462,
+                "depth": "2462",
+                "price": "3.331"
+            }
+        ],
+        "last_updated_at": 1784161409965000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ONDOUSD",
+        "sell": [
+            {
+                "size": 2143,
+                "depth": "2143",
+                "price": "0.3675"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2659,
+                "depth": "2659",
+                "price": "0.3671"
+            }
+        ],
+        "last_updated_at": 1784161411079000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "EDENUSD",
+        "sell": [
+            {
+                "size": 919,
+                "depth": "919",
+                "price": "0.04359"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2304,
+                "depth": "2304",
+                "price": "0.04355"
+            }
+        ],
+        "last_updated_at": 1784161407995000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "WCTUSD",
+        "sell": [
+            {
+                "size": 4586,
+                "depth": "4586",
+                "price": "0.04350"
+            }
+        ],
+        "buy": [
+            {
+                "size": 3679,
+                "depth": "3679",
+                "price": "0.04344"
+            }
+        ],
+        "last_updated_at": 1784161410980000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "BERAUSD",
+        "sell": [
+            {
+                "size": 12977,
+                "depth": "12977",
+                "price": "0.1921"
+            }
+        ],
+        "buy": [
+            {
+                "size": 8676,
+                "depth": "8676",
+                "price": "0.1916"
+            }
+        ],
+        "last_updated_at": 1784161410978000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "DOGEUSD",
+        "sell": [
+            {
+                "size": 3471,
+                "depth": "3471",
+                "price": "0.074020"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1644,
+                "depth": "1644",
+                "price": "0.073990"
+            }
+        ],
+        "last_updated_at": 1784161417980000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "AINUSD",
+        "sell": [
+            {
+                "size": 47,
+                "depth": "47",
+                "price": "0.07240"
+            }
+        ],
+        "buy": [
+            {
+                "size": 34,
+                "depth": "34",
+                "price": "0.07200"
+            }
+        ],
+        "last_updated_at": 1784161417637000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "DYDXUSD",
+        "sell": [
+            {
+                "size": 19917,
+                "depth": "19917",
+                "price": "0.1225"
+            }
+        ],
+        "buy": [
+            {
+                "size": 15456,
+                "depth": "15456",
+                "price": "0.1222"
+            }
+        ],
+        "last_updated_at": 1784161420138000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "BLESSUSD",
+        "sell": [
+            {
+                "size": 2505,
+                "depth": "2505",
+                "price": "0.008005"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2001,
+                "depth": "2001",
+                "price": "0.007990"
+            }
+        ],
+        "last_updated_at": 1784161417859000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "STBLUSD",
+        "sell": [
+            {
+                "size": 42818,
+                "depth": "42818",
+                "price": "0.02283"
+            }
+        ],
+        "buy": [
+            {
+                "size": 33073,
+                "depth": "33073",
+                "price": "0.02275"
+            }
+        ],
+        "last_updated_at": 1784161423183000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "WLFIUSD",
+        "sell": [
+            {
+                "size": 2258,
+                "depth": "2258",
+                "price": "0.0575"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2155,
+                "depth": "2155",
+                "price": "0.0574"
+            }
+        ],
+        "last_updated_at": 1784161424293000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "CHIPUSD",
+        "sell": [
+            {
+                "size": 286,
+                "depth": "286",
+                "price": "0.03143"
+            }
+        ],
+        "buy": [
+            {
+                "size": 362,
+                "depth": "362",
+                "price": "0.03139"
+            }
+        ],
+        "last_updated_at": 1784161426698000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "TRBUSD",
+        "sell": [
+            {
+                "size": 731,
+                "depth": "731",
+                "price": "15.112"
+            }
+        ],
+        "buy": [
+            {
+                "size": 839,
+                "depth": "839",
+                "price": "15.099"
+            }
+        ],
+        "last_updated_at": 1784161425122000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "GIGGLEUSD",
+        "sell": [
+            {
+                "size": 454,
+                "depth": "454",
+                "price": "26.86"
+            }
+        ],
+        "buy": [
+            {
+                "size": 425,
+                "depth": "425",
+                "price": "26.82"
+            }
+        ],
+        "last_updated_at": 1784161426933000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "GRAMUSD",
+        "sell": [
+            {
+                "size": 64,
+                "depth": "64",
+                "price": "1.575"
+            }
+        ],
+        "buy": [
+            {
+                "size": 76,
+                "depth": "76",
+                "price": "1.571"
+            }
+        ],
+        "last_updated_at": 1784161428404000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "1000PEPEUSD",
+        "sell": [
+            {
+                "size": 44,
+                "depth": "44",
+                "price": "0.0027974"
+            }
+        ],
+        "buy": [
+            {
+                "size": 454,
+                "depth": "454",
+                "price": "0.0027942"
+            }
+        ],
+        "last_updated_at": 1784161431294000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "RUNEUSD",
+        "sell": [
+            {
+                "size": 3014,
+                "depth": "3014",
+                "price": "0.4200"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2693,
+                "depth": "2693",
+                "price": "0.4196"
+            }
+        ],
+        "last_updated_at": 1784161431296000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "VIRTUALUSD",
+        "sell": [
+            {
+                "size": 1952,
+                "depth": "1952",
+                "price": "0.6141"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1096,
+                "depth": "1096",
+                "price": "0.6137"
+            }
+        ],
+        "last_updated_at": 1784161433474000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "API3USD",
+        "sell": [
+            {
+                "size": 2780,
+                "depth": "2.78E+3",
+                "price": "0.2271"
+            }
+        ],
+        "buy": [
+            {
+                "size": 3585,
+                "depth": "3585",
+                "price": "0.2267"
+            }
+        ],
+        "last_updated_at": 1784161432461000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "MUSD",
+        "sell": [
+            {
+                "size": 738,
+                "depth": "738",
+                "price": "1.2484"
+            }
+        ],
+        "buy": [
+            {
+                "size": 373,
+                "depth": "373",
+                "price": "1.2477"
+            }
+        ],
+        "last_updated_at": 1784161436638000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "RSRUSD",
+        "sell": [
+            {
+                "size": 5387,
+                "depth": "5387",
+                "price": "0.001248"
+            }
+        ],
+        "buy": [
+            {
+                "size": 5727,
+                "depth": "5727",
+                "price": "0.001241"
+            }
+        ],
+        "last_updated_at": 1784161432641000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "AXSUSD",
+        "sell": [
+            {
+                "size": 114,
+                "depth": "114",
+                "price": "0.995"
+            }
+        ],
+        "buy": [
+            {
+                "size": 128,
+                "depth": "128",
+                "price": "0.991"
+            }
+        ],
+        "last_updated_at": 1784161431374000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "STXUSD",
+        "sell": [
+            {
+                "size": 17640,
+                "depth": "1.764E+4",
+                "price": "0.1697"
+            }
+        ],
+        "buy": [
+            {
+                "size": 10976,
+                "depth": "10976",
+                "price": "0.1693"
+            }
+        ],
+        "last_updated_at": 1784161439814000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ZENUSD",
+        "sell": [
+            {
+                "size": 421,
+                "depth": "421",
+                "price": "4.352"
+            }
+        ],
+        "buy": [
+            {
+                "size": 422,
+                "depth": "422",
+                "price": "4.348"
+            }
+        ],
+        "last_updated_at": 1784161440255000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "LTCUSD",
+        "sell": [
+            {
+                "size": 2027,
+                "depth": "2027",
+                "price": "45.21"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1850,
+                "depth": "1.85E+3",
+                "price": "45.18"
+            }
+        ],
+        "last_updated_at": 1784161442025000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "1MBABYDOGEUSD",
+        "sell": [
+            {
+                "size": 3,
+                "depth": "3",
+                "price": "0.0003137"
+            }
+        ],
+        "buy": [
+            {
+                "size": 40421,
+                "depth": "40421",
+                "price": "0.0003134"
+            }
+        ],
+        "last_updated_at": 1784161442974000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "MANAUSD",
+        "sell": [
+            {
+                "size": 13340,
+                "depth": "1.334E+4",
+                "price": "0.0703"
+            }
+        ],
+        "buy": [
+            {
+                "size": 7748,
+                "depth": "7748",
+                "price": "0.0700"
+            }
+        ],
+        "last_updated_at": 1784161442613000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "XAIUSD",
+        "sell": [
+            {
+                "size": 17892,
+                "depth": "17892",
+                "price": "0.00703"
+            }
+        ],
+        "buy": [
+            {
+                "size": 6600,
+                "depth": "6.6E+3",
+                "price": "0.00700"
+            }
+        ],
+        "last_updated_at": 1784161440030000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "LISTAUSD",
+        "sell": [
+            {
+                "size": 1088,
+                "depth": "1088",
+                "price": "0.04860"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2190,
+                "depth": "2.19E+3",
+                "price": "0.04820"
+            }
+        ],
+        "last_updated_at": 1784161444347000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "AIOUSD",
+        "sell": [
+            {
+                "size": 84,
+                "depth": "84",
+                "price": "0.09801"
+            }
+        ],
+        "buy": [
+            {
+                "size": 143,
+                "depth": "143",
+                "price": "0.09787"
+            }
+        ],
+        "last_updated_at": 1784161446043000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "WIFUSD",
+        "sell": [
+            {
+                "size": 61981,
+                "depth": "61981",
+                "price": "0.1525"
+            }
+        ],
+        "buy": [
+            {
+                "size": 65611,
+                "depth": "65611",
+                "price": "0.1523"
+            }
+        ],
+        "last_updated_at": 1784161448953000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "SUSHIUSD",
+        "sell": [
+            {
+                "size": 12488,
+                "depth": "12488",
+                "price": "0.1651"
+            }
+        ],
+        "buy": [
+            {
+                "size": 17401,
+                "depth": "17401",
+                "price": "0.1646"
+            }
+        ],
+        "last_updated_at": 1784161449129000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "XMRUSD",
+        "sell": [
+            {
+                "size": 567,
+                "depth": "567",
+                "price": "329.88"
+            }
+        ],
+        "buy": [
+            {
+                "size": 58,
+                "depth": "58",
+                "price": "329.84"
+            }
+        ],
+        "last_updated_at": 1784161451518000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "CROSSUSD",
+        "sell": [
+            {
+                "size": 1616,
+                "depth": "1616",
+                "price": "0.07416"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1082,
+                "depth": "1082",
+                "price": "0.07396"
+            }
+        ],
+        "last_updated_at": 1784161448287000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "GALAUSD",
+        "sell": [
+            {
+                "size": 9229,
+                "depth": "9229",
+                "price": "0.002035"
+            }
+        ],
+        "buy": [
+            {
+                "size": 6191,
+                "depth": "6191",
+                "price": "0.002030"
+            }
+        ],
+        "last_updated_at": 1784161449120000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "TRXUSD",
+        "sell": [
+            {
+                "size": 1991,
+                "depth": "1991",
+                "price": "0.32422"
+            }
+        ],
+        "buy": [
+            {
+                "size": 19991,
+                "depth": "19991",
+                "price": "0.32420"
+            }
+        ],
+        "last_updated_at": 1784161454129000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "LAYERUSD",
+        "sell": [
+            {
+                "size": 1566,
+                "depth": "1566",
+                "price": "0.06650"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1304,
+                "depth": "1304",
+                "price": "0.06610"
+            }
+        ],
+        "last_updated_at": 1784161454234000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "SOLUSD",
+        "sell": [
+            {
+                "size": 230,
+                "depth": "2.3E+2",
+                "price": "77.1090"
+            }
+        ],
+        "buy": [
+            {
+                "size": 95,
+                "depth": "95",
+                "price": "77.1000"
+            }
+        ],
+        "last_updated_at": 1784161457080000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "MMTUSD",
+        "sell": [
+            {
+                "size": 829,
+                "depth": "829",
+                "price": "0.1708"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1177,
+                "depth": "1177",
+                "price": "0.1703"
+            }
+        ],
+        "last_updated_at": 1784161456504000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "DEEPUSD",
+        "sell": [
+            {
+                "size": 6400,
+                "depth": "6.4E+3",
+                "price": "0.01813"
+            }
+        ],
+        "buy": [
+            {
+                "size": 6998,
+                "depth": "6998",
+                "price": "0.01808"
+            }
+        ],
+        "last_updated_at": 1784161449829000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "SUSD",
+        "sell": [
+            {
+                "size": 4960,
+                "depth": "4.96E+3",
+                "price": "0.02549"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2218,
+                "depth": "2218",
+                "price": "0.02545"
+            }
+        ],
+        "last_updated_at": 1784161454718000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "BILLUSD",
+        "sell": [
+            {
+                "size": 274,
+                "depth": "274",
+                "price": "0.03367"
+            }
+        ],
+        "buy": [
+            {
+                "size": 629,
+                "depth": "629",
+                "price": "0.03362"
+            }
+        ],
+        "last_updated_at": 1784161461095000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "PUMPUSD",
+        "sell": [
+            {
+                "size": 489,
+                "depth": "489",
+                "price": "0.001678"
+            }
+        ],
+        "buy": [
+            {
+                "size": 472,
+                "depth": "472",
+                "price": "0.001674"
+            }
+        ],
+        "last_updated_at": 1784161460100000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "VVVUSD",
+        "sell": [
+            {
+                "size": 66,
+                "depth": "66",
+                "price": "10.884"
+            }
+        ],
+        "buy": [
+            {
+                "size": 175,
+                "depth": "175",
+                "price": "10.879"
+            }
+        ],
+        "last_updated_at": 1784161460981000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "FRAXUSD",
+        "sell": [
+            {
+                "size": 346,
+                "depth": "346",
+                "price": "0.2644"
+            }
+        ],
+        "buy": [
+            {
+                "size": 636,
+                "depth": "636",
+                "price": "0.2639"
+            }
+        ],
+        "last_updated_at": 1784161461295000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "GOATUSD",
+        "sell": [
+            {
+                "size": 5855,
+                "depth": "5855",
+                "price": "0.01368"
+            }
+        ],
+        "buy": [
+            {
+                "size": 9276,
+                "depth": "9276",
+                "price": "0.01364"
+            }
+        ],
+        "last_updated_at": 1784161460310000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ZKUSD",
+        "sell": [
+            {
+                "size": 33575,
+                "depth": "33575",
+                "price": "0.01031"
+            }
+        ],
+        "buy": [
+            {
+                "size": 45922,
+                "depth": "45922",
+                "price": "0.01029"
+            }
+        ],
+        "last_updated_at": 1784161465104000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ZROUSD",
+        "sell": [
+            {
+                "size": 1257,
+                "depth": "1257",
+                "price": "0.8220"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1053,
+                "depth": "1053",
+                "price": "0.8190"
+            }
+        ],
+        "last_updated_at": 1784161464804000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "HBARUSD",
+        "sell": [
+            {
+                "size": 15789,
+                "depth": "15789",
+                "price": "0.06802"
+            }
+        ],
+        "buy": [
+            {
+                "size": 14746,
+                "depth": "14746",
+                "price": "0.06798"
+            }
+        ],
+        "last_updated_at": 1784161468773000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "SUNUSD",
+        "sell": [
+            {
+                "size": 559,
+                "depth": "559",
+                "price": "0.018040"
+            }
+        ],
+        "buy": [
+            {
+                "size": 469,
+                "depth": "469",
+                "price": "0.018010"
+            }
+        ],
+        "last_updated_at": 1784161467894000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "FFUSD",
+        "sell": [
+            {
+                "size": 117,
+                "depth": "117",
+                "price": "0.06721"
+            }
+        ],
+        "buy": [
+            {
+                "size": 180,
+                "depth": "1.8E+2",
+                "price": "0.06717"
+            }
+        ],
+        "last_updated_at": 1784161471099000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "BUSD",
+        "sell": [
+            {
+                "size": 151,
+                "depth": "151",
+                "price": "0.1128"
+            }
+        ],
+        "buy": [
+            {
+                "size": 131,
+                "depth": "131",
+                "price": "0.1124"
+            }
+        ],
+        "last_updated_at": 1784161469642000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ARIAUSD",
+        "sell": [
+            {
+                "size": 5947,
+                "depth": "5947",
+                "price": "0.0235"
+            }
+        ],
+        "buy": [
+            {
+                "size": 10212,
+                "depth": "10212",
+                "price": "0.0233"
+            }
+        ],
+        "last_updated_at": 1784161475663000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ARUSD",
+        "sell": [
+            {
+                "size": 289,
+                "depth": "289",
+                "price": "1.994"
+            }
+        ],
+        "buy": [
+            {
+                "size": 497,
+                "depth": "497",
+                "price": "1.988"
+            }
+        ],
+        "last_updated_at": 1784161472869000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "SEIUSD",
+        "sell": [
+            {
+                "size": 1554,
+                "depth": "1554",
+                "price": "0.04860"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1894,
+                "depth": "1894",
+                "price": "0.04830"
+            }
+        ],
+        "last_updated_at": 1784161477517000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "AVAXUSD",
+        "sell": [
+            {
+                "size": 1199,
+                "depth": "1199",
+                "price": "6.7060"
+            }
+        ],
+        "buy": [
+            {
+                "size": 982,
+                "depth": "982",
+                "price": "6.7000"
+            }
+        ],
+        "last_updated_at": 1784161480011000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "DOGSUSD",
+        "sell": [
+            {
+                "size": 12511,
+                "depth": "12511",
+                "price": "0.0000380"
+            }
+        ],
+        "buy": [
+            {
+                "size": 33425,
+                "depth": "33425",
+                "price": "0.0000377"
+            }
+        ],
+        "last_updated_at": 1784161476093000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "OPNUSD",
+        "sell": [
+            {
+                "size": 196,
+                "depth": "196",
+                "price": "0.0640"
+            }
+        ],
+        "buy": [
+            {
+                "size": 137,
+                "depth": "137",
+                "price": "0.0637"
+            }
+        ],
+        "last_updated_at": 1784161482511000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "JTOUSD",
+        "sell": [
+            {
+                "size": 15799,
+                "depth": "15799",
+                "price": "0.6152"
+            }
+        ],
+        "buy": [
+            {
+                "size": 17698,
+                "depth": "17698",
+                "price": "0.6148"
+            }
+        ],
+        "last_updated_at": 1784161484368000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "HYPEUSD",
+        "sell": [
+            {
+                "size": 71,
+                "depth": "71",
+                "price": "66.920"
+            }
+        ],
+        "buy": [
+            {
+                "size": 182,
+                "depth": "182",
+                "price": "66.890"
+            }
+        ],
+        "last_updated_at": 1784161486050000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "MEUSD",
+        "sell": [
+            {
+                "size": 395,
+                "depth": "395",
+                "price": "0.0659"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1469,
+                "depth": "1469",
+                "price": "0.0655"
+            }
+        ],
+        "last_updated_at": 1784161485580000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "HUSD",
+        "sell": [
+            {
+                "size": 183,
+                "depth": "183",
+                "price": "0.05801"
+            }
+        ],
+        "buy": [
+            {
+                "size": 329,
+                "depth": "329",
+                "price": "0.05794"
+            }
+        ],
+        "last_updated_at": 1784161488627000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "MOVEUSD",
+        "sell": [
+            {
+                "size": 18160,
+                "depth": "1.816E+4",
+                "price": "0.01095"
+            }
+        ],
+        "buy": [
+            {
+                "size": 16687,
+                "depth": "16687",
+                "price": "0.01092"
+            }
+        ],
+        "last_updated_at": 1784161488386000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "UNIUSD",
+        "sell": [
+            {
+                "size": 1750,
+                "depth": "1.75E+3",
+                "price": "3.6300"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1616,
+                "depth": "1616",
+                "price": "3.6260"
+            }
+        ],
+        "last_updated_at": 1784161489260000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ARBUSD",
+        "sell": [
+            {
+                "size": 81970,
+                "depth": "8.197E+4",
+                "price": "0.0881"
+            }
+        ],
+        "buy": [
+            {
+                "size": 55619,
+                "depth": "55619",
+                "price": "0.0877"
+            }
+        ],
+        "last_updated_at": 1784161492105000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ZORAUSD",
+        "sell": [
+            {
+                "size": 621,
+                "depth": "621",
+                "price": "0.00707"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1513,
+                "depth": "1513",
+                "price": "0.00703"
+            }
+        ],
+        "last_updated_at": 1784161493324000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "EVAAUSD",
+        "sell": [
+            {
+                "size": 1094,
+                "depth": "1094",
+                "price": "1.0473"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1796,
+                "depth": "1796",
+                "price": "1.0468"
+            }
+        ],
+        "last_updated_at": 1784161494548000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "FILUSD",
+        "sell": [
+            {
+                "size": 1644,
+                "depth": "1644",
+                "price": "0.7900"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1365,
+                "depth": "1365",
+                "price": "0.7870"
+            }
+        ],
+        "last_updated_at": 1784161491826000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "AIGENSYNUSD",
+        "sell": [
+            {
+                "size": 221,
+                "depth": "221",
+                "price": "0.02408"
+            }
+        ],
+        "buy": [
+            {
+                "size": 339,
+                "depth": "339",
+                "price": "0.02404"
+            }
+        ],
+        "last_updated_at": 1784161496539000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ARCUSD",
+        "sell": [
+            {
+                "size": 2,
+                "depth": "2",
+                "price": "0.07691"
+            }
+        ],
+        "buy": [
+            {
+                "size": 1749,
+                "depth": "1749",
+                "price": "0.07670"
+            }
+        ],
+        "last_updated_at": 1784161749348000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "USUALUSD",
+        "sell": [
+            {
+                "size": 92747,
+                "depth": "92747",
+                "price": "0.00899"
+            }
+        ],
+        "buy": [
+            {
+                "size": 91055,
+                "depth": "91055",
+                "price": "0.00896"
+            }
+        ],
+        "last_updated_at": 1784161752308000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ZECUSD",
+        "sell": [
+            {
+                "size": 123,
+                "depth": "123",
+                "price": "571.17"
+            }
+        ],
+        "buy": [
+            {
+                "size": 770,
+                "depth": "7.7E+2",
+                "price": "571.13"
+            }
+        ],
+        "last_updated_at": 1784161753801000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "AUCTIONUSD",
+        "sell": [
+            {
+                "size": 2599,
+                "depth": "2599",
+                "price": "3.335"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2611,
+                "depth": "2611",
+                "price": "3.331"
+            }
+        ],
+        "last_updated_at": 1784161746786000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "ONDOUSD",
+        "sell": [
+            {
+                "size": 1915,
+                "depth": "1915",
+                "price": "0.3641"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2425,
+                "depth": "2425",
+                "price": "0.3637"
+            }
+        ],
+        "last_updated_at": 1784161754546000
+    }
+}{
+    "success": true,
+    "result": {
+        "symbol": "EDENUSD",
+        "sell": [
+            {
+                "size": 586,
+                "depth": "586",
+                "price": "0.04348"
+            }
+        ],
+        "buy": [
+            {
+                "size": 2550,
+                "depth": "2.55E+3",
+                "price": "0.04343"
+            }
+        ],
+        "last_updated_at": 1784161756738000
+    }
+}

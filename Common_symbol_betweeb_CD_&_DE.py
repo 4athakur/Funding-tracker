@@ -1,17 +1,3 @@
-API_K = "6i5gmMA1mPuMwsYkD5txDsshw4XYHJ"
-API_S = "F40KLO5rg3SJOq6D4f3OdEdcoiZo9M9xUx53MsXse2M19xUK4Ta67JDSYp3F"
-path = "/v2/funding_rates"
-
-
-
-BASE_URL = "https://api.india.delta.exchange"
-path_wallet_balance="/v2/wallet/balances"
-
-coinddcx_api_key="cab820cb110f98e3299deeff872d5deafecc92f7f95e39a9"
-coinddcx_api_secret="a7c89815abff0bb3c88386d11cd7c093ffe8945f1155e3cdb2d3075ae75412e8"
-#---------------------------------------------------------------------------------------------
-
-
 # Common_symbol_betweeb_CD_&_DE.py
 import requests,json
 #    --------------------------------------------symbole in Delta Exchange--------------------
@@ -78,18 +64,26 @@ def common_items(list1, list2):
     return a
 #----------------list which contain only common symbol between Delta Exchange and CoinDcx---
 a=common_items(only_de_symbol,only_cd_symbol)
-def absolute_common_items():
+def absolute_common_items(): # 🔥remeber to used abbrevation USD for DE & B-symbol_USDT for CDX🔥🔥
    return a
 #-------------------------------------------------------printing not common items---------------
-ss=0
-for i in only_de_symbol:
-   if i not in a:
-    ss=ss+1
-    # print(i , "is not common")
-print(ss," are not common items")
+def not_common_items_between_DE_and_CDX():
+ ss=0
+ for i in only_de_symbol:
+    if i not in a:
+      ss=ss+1
+      print(i , "is not common")
+ print("\n",ss," are not common items")
 #-----------------------------------------------printing some useful information---------------
 print("Total common items are",len(a))
-print("Total future perpetula coin listed at Delta Exchange are : ",len(only_cd_symbol))
-print("Total future perpetula coin listed at Delta Exchange are : ",len(only_de_symbol))
+print(type(a))
+print(len(only_cd_symbol))
+print(len(only_de_symbol))
+not_common_items_between_DE_and_CDX()
 #--------------------------------------------------------------------------------------------
   
+
+
+
+
+

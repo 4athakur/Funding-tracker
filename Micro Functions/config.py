@@ -85,11 +85,13 @@ ss=0
 for i in only_de_symbol:
    if i not in a:
     ss=ss+1
-    # print(i , "is not common")
+   #  print(i , "is not common")
 print(ss," are not common items")
 #-----------------------------------------------printing some useful information---------------
 print("Total common items are",len(a))
-print("Total future perpetula coin listed at Delta Exchange are : ",len(only_cd_symbol))
-print("Total future perpetula coin listed at Delta Exchange are : ",len(only_de_symbol))
+
+
+# print("Total future perpetula coin listed at Delta Exchange are : ",len(only_cd_symbol))
+# print("Total future perpetula coin listed at Delta Exchange are : ",len(only_de_symbol))
 #--------------------------------------------------------------------------------------------
   
