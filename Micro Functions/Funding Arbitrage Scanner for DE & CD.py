@@ -5,7 +5,6 @@ from config import absolute_common_items
 absolute_common_items=absolute_common_items()
 common_exchange_symbol=['B-'+w+'_USDT' for w in absolute_common_items]
 #-------------------------------------------------------------------------------------
-
 url = "https://public.coindcx.com/market_data/v3/current_prices/futures/rt"
 resp = requests.get(url)
 data = resp.json()
@@ -64,11 +63,10 @@ for symbol, info in data["prices"].items():
         efr_val = float(efr)*100
     except (TypeError, ValueError):
         continue
-    # if symbol == 'B-AIOT_USDT':
+    # if symbol == 'B-AIOT_USDT':                          set symbol condition filter here
     if(symbol in common_exchange_symbol and symbol in r):
      ii+=1
-     percentage=.1
-
+     percentage=.1#                                        set percentage filter here
      diff=data_dict_from_DCX_for_fr_and_symbol[symbol]-converted_dict[symbol]
      res=abs(diff)
      if res >percentage:
