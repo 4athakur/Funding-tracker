@@ -59,14 +59,14 @@ cd_symbol=CD_symbol()
 de_symbol=DE_symbol()
 
 only_de_symbol=[]
-only_cd_symbol=[]
+only_cdx_symbol=[]
 a=[]
 for i in de_symbol:
    only_de_symbol.append(i[0:-3])
 c=0
 for i in cd_symbol:
    if i[-5:]=='_USDT':
-     only_cd_symbol.append(i[2:-5])
+     only_cdx_symbol.append(i[2:-5])
      c=c+1
 
 #---------------------------------------total common items--------------------------------------------
@@ -77,7 +77,7 @@ def common_items(list1, list2):
            a.append(i) 
     return a
 #----------------list which contain only common symbol between Delta Exchange and CoinDcx---
-a=common_items(only_de_symbol,only_cd_symbol)
+a=common_items(only_de_symbol,only_cdx_symbol)
 def absolute_common_items():
    return a
 #-------------------------------------------------------printing not common items---------------
@@ -91,7 +91,7 @@ print(ss," are not common items")
 print("Total common items are",len(a))
 
 
-# print("Total future perpetula coin listed at Delta Exchange are : ",len(only_cd_symbol))
+# print("Total future perpetula coin listed at Delta Exchange are : ",len(only_cdx_symbol))
 # print("Total future perpetula coin listed at Delta Exchange are : ",len(only_de_symbol))
 #--------------------------------------------------------------------------------------------
   

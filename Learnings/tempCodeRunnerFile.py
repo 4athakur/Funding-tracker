@@ -1,2 +1,1 @@
-ta1)
-    # print(data2)
+global count

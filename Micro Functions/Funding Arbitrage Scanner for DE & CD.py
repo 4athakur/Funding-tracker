@@ -45,9 +45,9 @@ for k in data_delta_exchange['result']:
    data_dict_from_DE_for_fr_and_symbol.update({'B-'+k['symbol'][:-3]+'_USDT':k["funding_rate"]})
     # if float(k['funding_rate']) > 0.2 or float(k['funding_rate'])< -0.2:
     #  print(k['symbol']+" fundig rate is "+ k['funding_rate'])
-converted_dict = {k: float(v) for k, v in data_dict_from_DE_for_fr_and_symbol.items()}
+converted_dict = {k: float(v) for k, v in data_dict_from_DE_for_fr_and_symbol.items()}  # stroed symbol format (B-symbolname_USDT : float(fr)) hai
 print(f"Total items for fr status from delta exchane is: {c}")
-r=list(data_dict_from_DE_for_fr_and_symbol.keys())
+r=list(data_dict_from_DE_for_fr_and_symbol.keys()) 
 #--------------------------------------------------------------------------------------------------------
 ii=0
 iii=0
@@ -75,5 +75,6 @@ for symbol, info in data["prices"].items():
     #   print(f"{info.get('mkt')} {info.get('mp')} :Estimated Next Funding Rate = {fr_val:.6f}, Current Funding Rate on CDX = {efr_val:.6f}")
 print(f"\nTotal Results are: {iii}")
 print(ii)
+
 
 
