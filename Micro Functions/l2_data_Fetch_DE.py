@@ -4,8 +4,8 @@ import time
 
 count=1
 latency=0
+
 url='wss://public-socket.india.delta.exchange/'
-# url='wss://socket-ind.testnet.deltaex.org/'
 def on_open(ws):
     subscription_Msg={
     "type": "subscribe",
@@ -14,7 +14,7 @@ def on_open(ws):
             {
                 "name": "ob_l2",
                 "symbols": [
-                    "AIOTUSD"
+                    "AIOTUSD"                                   # Enter here your symbol
                 ]
             }
         ]

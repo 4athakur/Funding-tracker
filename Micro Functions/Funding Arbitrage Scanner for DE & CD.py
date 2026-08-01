@@ -29,7 +29,6 @@ with open("da.json", 'w') as f:
  json.dump(data,f) 
 count=0
 for i,j in data['prices'].items():
-#    print(j.get('mkt',0))
    count =count+1
 #---------------------------------getting funding rate data from Delta Exchange--------------------------
 headers = {'Accept': 'application/json'}
@@ -69,7 +68,7 @@ for symbol, info in data["prices"].items():
      percentage=.1#                                        set percentage filter here
      diff=data_dict_from_DCX_for_fr_and_symbol[symbol]-converted_dict[symbol]
      res=abs(diff)
-     if res >percentage:
+     if res >=percentage:
         iii+=1
         print(f"Arbitrage Spoted with🔥{res:0.3f}% 🔥Funding rate {symbol} on     CoinDCX -> {data_dict_from_DCX_for_fr_and_symbol[symbol]} and           Delta Exchange -> {converted_dict[symbol]}")
     #   print(f"{info.get('mkt')} {info.get('mp')} :Estimated Next Funding Rate = {fr_val:.6f}, Current Funding Rate on CDX = {efr_val:.6f}")
