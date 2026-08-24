@@ -71,7 +71,7 @@ for symbol, info in data["prices"].items():
      if res >=percentage:
         iii+=1
         print(f"Arbitrage Spoted with🔥{res:0.3f}% 🔥Funding rate {symbol} on     CoinDCX -> {data_dict_from_DCX_for_fr_and_symbol[symbol]} and           Delta Exchange -> {converted_dict[symbol]}")
-    #   print(f"{info.get('mkt')} {info.get('mp')} :Estimated Next Funding Rate = {fr_val:.6f}, Current Funding Rate on CDX = {efr_val:.6f}")
+    #  # print(f"{info.get('mkt')} {info.get('mp')} :Estimated Next Funding Rate = {fr_val:.6f}, Current Funding Rate on CDX = {efr_val:.6f}")
 print(f"\nTotal Results are: {iii}")
 print(ii)
 
