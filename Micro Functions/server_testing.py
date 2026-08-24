@@ -4,8 +4,8 @@ import json
 import time
 import websocket
 
-symbol='1000SATS'
-ORDER_TYPE='SELL'
+symbol='SKL'
+ORDER_TYPE='buy'
 flag_for_CDX_function = 1
 rtd_from_CDX = None
 rtd_from_DE = None

@@ -65,7 +65,7 @@ for symbol, info in data["prices"].items():
     # if symbol == 'B-AIOT_USDT':                          set symbol condition filter here
     if(symbol in common_exchange_symbol and symbol in r):
      ii+=1
-     percentage=.1#                                        set percentage filter here
+     percentage=.15 #                                        set percentage filter here
      diff=data_dict_from_DCX_for_fr_and_symbol[symbol]-converted_dict[symbol]
      res=abs(diff)
      if res >=percentage:
@@ -74,6 +74,7 @@ for symbol, info in data["prices"].items():
     #   print(f"{info.get('mkt')} {info.get('mp')} :Estimated Next Funding Rate = {fr_val:.6f}, Current Funding Rate on CDX = {efr_val:.6f}")
 print(f"\nTotal Results are: {iii}")
 print(ii)
+
 
 
 
