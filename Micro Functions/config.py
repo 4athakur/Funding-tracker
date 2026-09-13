@@ -88,8 +88,7 @@ for i in only_de_symbol:
    #  print(i , "is not common")
 print(ss," are not common items")
 #-----------------------------------------------printing some useful information---------------
-print("Total common items are",len(a))
-
+print("Total common items are",len(a)," on CDX and DE exchanges")
 
 # print("Total future perpetula coin listed at Delta Exchange are : ",len(only_cdx_symbol))
 # print("Total future perpetula coin listed at Delta Exchange are : ",len(only_de_symbol))

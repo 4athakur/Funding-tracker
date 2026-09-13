@@ -65,7 +65,7 @@ for symbol, info in data["prices"].items():
     # if symbol == 'B-AIOT_USDT':                          set symbol condition filter here
     if(symbol in common_exchange_symbol and symbol in r):
      ii+=1
-     percentage=0.1 #                                        set percentage filter here
+     percentage=0.08  #                                        set percentage filter here
      diff=data_dict_from_DCX_for_fr_and_symbol[symbol]-converted_dict[symbol]
      res=abs(diff)
      if res >=percentage:
