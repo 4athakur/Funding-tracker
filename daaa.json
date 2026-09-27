@@ -27,7 +27,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "10976.75",
+                    "notional": "10988.25",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -110,7 +110,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "2196.5",
+                    "notional": "2198.7999999999997",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -194,7 +194,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "548.2624999999999",
+                    "notional": "548.5500000000001",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -278,7 +278,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "547.975",
+                    "notional": "549.125",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -7422,7 +7422,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "548.5500000000001",
+                    "notional": "549.125",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -7927,7 +7927,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "546.8249999999999",
+                    "notional": "547.975",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -11855,91 +11855,6 @@
             ]
         },
         {
-            "name": "GOOGLUSDT",
-            "contractName": "Alphabet Inc",
-            "slug": "alphabet-inc-derivatives",
-            "tags": [
-                "New",
-                "US Stocks"
-            ],
-            "filters": [
-                {
-                    "maxQty": "4000",
-                    "minQty": "0.01",
-                    "filterType": "LIMIT_QTY_SIZE"
-                },
-                {
-                    "maxQty": "400",
-                    "minQty": "0.01",
-                    "filterType": "MARKET_QTY_SIZE"
-                },
-                {
-                    "limit": "200",
-                    "filterType": "MAX_NUM_ORDERS"
-                },
-                {
-                    "notional": "5.75",
-                    "filterType": "MIN_NOTIONAL"
-                }
-            ],
-            "makerFee": 0.02,
-            "takerFee": 0.06,
-            "baseAsset": "GOOGL",
-            "orderTypes": [
-                "LIMIT",
-                "MARKET"
-            ],
-            "quoteAsset": "USDT",
-            "maxLeverage": "10",
-            "contractType": "TRADIFI_PERPETUAL",
-            "marginBuffer": "0.01",
-            "depthGrouping": [
-                "0.01"
-            ],
-            "liquidationFee": "0.02",
-            "pricePrecision": "2",
-            "isDefaultContract": false,
-            "quantityPrecision": "2",
-            "limitPriceVarAllowed": "0.15",
-            "marginBufferPercentage": "1",
-            "maintenanceMarginPercentage": "35",
-            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/googl.png",
-            "reduceMarginAllowedRatioPercent": 20,
-            "market": "USDT",
-            "marginAssetsSupported": [
-                "INR",
-                "USDT"
-            ],
-            "fundingFeeInterval": 8,
-            "maintenanceMarginConfig": [
-                {
-                    "rangeStart": 1,
-                    "rangeEnd": 5,
-                    "percentageValue": 10
-                },
-                {
-                    "rangeStart": 6,
-                    "rangeEnd": 25,
-                    "percentageValue": 20
-                },
-                {
-                    "rangeStart": 26,
-                    "rangeEnd": 75,
-                    "percentageValue": 25
-                },
-                {
-                    "rangeStart": 76,
-                    "rangeEnd": 100,
-                    "percentageValue": 30
-                },
-                {
-                    "rangeStart": 101,
-                    "rangeEnd": 150,
-                    "percentageValue": 35
-                }
-            ]
-        },
-        {
             "name": "HMSTRUSDT",
             "contractName": "Hamster Kombat",
             "slug": "hamster-kombat",
@@ -12104,6 +12019,91 @@
                     "rangeStart": 101,
                     "rangeEnd": 150,
                     "percentageValue": 30
+                }
+            ]
+        },
+        {
+            "name": "GOOGLUSDT",
+            "contractName": "Alphabet Inc",
+            "slug": "alphabet-inc-derivatives",
+            "tags": [
+                "New",
+                "US Stocks"
+            ],
+            "filters": [
+                {
+                    "maxQty": "4000",
+                    "minQty": "0.01",
+                    "filterType": "LIMIT_QTY_SIZE"
+                },
+                {
+                    "maxQty": "400",
+                    "minQty": "0.01",
+                    "filterType": "MARKET_QTY_SIZE"
+                },
+                {
+                    "limit": "200",
+                    "filterType": "MAX_NUM_ORDERS"
+                },
+                {
+                    "notional": "5.75",
+                    "filterType": "MIN_NOTIONAL"
+                }
+            ],
+            "makerFee": 0.02,
+            "takerFee": 0.06,
+            "baseAsset": "GOOGL",
+            "orderTypes": [
+                "LIMIT",
+                "MARKET"
+            ],
+            "quoteAsset": "USDT",
+            "maxLeverage": "10",
+            "contractType": "TRADIFI_PERPETUAL",
+            "marginBuffer": "0.01",
+            "depthGrouping": [
+                "0.01"
+            ],
+            "liquidationFee": "0.02",
+            "pricePrecision": "2",
+            "isDefaultContract": false,
+            "quantityPrecision": "2",
+            "limitPriceVarAllowed": "0.15",
+            "marginBufferPercentage": "1",
+            "maintenanceMarginPercentage": "35",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/googl.png",
+            "reduceMarginAllowedRatioPercent": 20,
+            "market": "USDT",
+            "marginAssetsSupported": [
+                "INR",
+                "USDT"
+            ],
+            "fundingFeeInterval": 8,
+            "maintenanceMarginConfig": [
+                {
+                    "rangeStart": 1,
+                    "rangeEnd": 5,
+                    "percentageValue": 10
+                },
+                {
+                    "rangeStart": 6,
+                    "rangeEnd": 25,
+                    "percentageValue": 20
+                },
+                {
+                    "rangeStart": 26,
+                    "rangeEnd": 75,
+                    "percentageValue": 25
+                },
+                {
+                    "rangeStart": 76,
+                    "rangeEnd": 100,
+                    "percentageValue": 30
+                },
+                {
+                    "rangeStart": 101,
+                    "rangeEnd": 150,
+                    "percentageValue": 35
                 }
             ]
         },
@@ -12695,22 +12695,22 @@
             ]
         },
         {
-            "name": "NVDAUSDT",
-            "contractName": "Nvdia Corporation",
-            "slug": "nvidia-derivatives",
+            "name": "SPKUSDT",
+            "contractName": "Spark",
+            "slug": "spark",
             "tags": [
                 "New",
-                "US Stocks"
+                "Defi"
             ],
             "filters": [
                 {
-                    "maxQty": "6000",
-                    "minQty": "0.01",
+                    "maxQty": "40000000",
+                    "minQty": "1",
                     "filterType": "LIMIT_QTY_SIZE"
                 },
                 {
-                    "maxQty": "600",
-                    "minQty": "0.01",
+                    "maxQty": "4000000",
+                    "minQty": "1",
                     "filterType": "MARKET_QTY_SIZE"
                 },
                 {
@@ -12724,33 +12724,33 @@
             ],
             "makerFee": 0.02,
             "takerFee": 0.06,
-            "baseAsset": "NVDA",
+            "baseAsset": "SPK",
             "orderTypes": [
                 "LIMIT",
                 "MARKET"
             ],
             "quoteAsset": "USDT",
             "maxLeverage": "10",
-            "contractType": "TRADIFI_PERPETUAL",
+            "contractType": "PERPETUAL",
             "marginBuffer": "0.01",
             "depthGrouping": [
-                "0.01"
+                "0.00001"
             ],
             "liquidationFee": "0.02",
-            "pricePrecision": "2",
+            "pricePrecision": "5",
             "isDefaultContract": false,
-            "quantityPrecision": "2",
+            "quantityPrecision": "0",
             "limitPriceVarAllowed": "0.15",
             "marginBufferPercentage": "1",
             "maintenanceMarginPercentage": "35",
-            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/nvda.png",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/spk.png",
             "reduceMarginAllowedRatioPercent": 20,
             "market": "USDT",
             "marginAssetsSupported": [
                 "INR",
                 "USDT"
             ],
-            "fundingFeeInterval": 8,
+            "fundingFeeInterval": 4,
             "maintenanceMarginConfig": [
                 {
                     "rangeStart": 1,
@@ -13707,6 +13707,91 @@
             ]
         },
         {
+            "name": "DRAMUSDT",
+            "contractName": "Roundhill Memory ETF",
+            "slug": "roundhill-memory-etf-derivatives",
+            "tags": [
+                "New",
+                "ETFs"
+            ],
+            "filters": [
+                {
+                    "maxQty": "70000",
+                    "minQty": "0.01",
+                    "filterType": "LIMIT_QTY_SIZE"
+                },
+                {
+                    "maxQty": "6800",
+                    "minQty": "0.01",
+                    "filterType": "MARKET_QTY_SIZE"
+                },
+                {
+                    "limit": "200",
+                    "filterType": "MAX_NUM_ORDERS"
+                },
+                {
+                    "notional": "5.75",
+                    "filterType": "MIN_NOTIONAL"
+                }
+            ],
+            "makerFee": 0.02,
+            "takerFee": 0.06,
+            "baseAsset": "DRAM",
+            "orderTypes": [
+                "LIMIT",
+                "MARKET"
+            ],
+            "quoteAsset": "USDT",
+            "maxLeverage": "15",
+            "contractType": "TRADIFI_PERPETUAL",
+            "marginBuffer": "0.01",
+            "depthGrouping": [
+                "0.01"
+            ],
+            "liquidationFee": "0.02",
+            "pricePrecision": "2",
+            "isDefaultContract": false,
+            "quantityPrecision": "2",
+            "limitPriceVarAllowed": "0.15",
+            "marginBufferPercentage": "1",
+            "maintenanceMarginPercentage": "35",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/dram.png",
+            "reduceMarginAllowedRatioPercent": 20,
+            "market": "USDT",
+            "marginAssetsSupported": [
+                "INR",
+                "USDT"
+            ],
+            "fundingFeeInterval": 8,
+            "maintenanceMarginConfig": [
+                {
+                    "rangeStart": 1,
+                    "rangeEnd": 5,
+                    "percentageValue": 10
+                },
+                {
+                    "rangeStart": 6,
+                    "rangeEnd": 25,
+                    "percentageValue": 20
+                },
+                {
+                    "rangeStart": 26,
+                    "rangeEnd": 75,
+                    "percentageValue": 25
+                },
+                {
+                    "rangeStart": 76,
+                    "rangeEnd": 100,
+                    "percentageValue": 30
+                },
+                {
+                    "rangeStart": 101,
+                    "rangeEnd": 150,
+                    "percentageValue": 35
+                }
+            ]
+        },
+        {
             "name": "COTIUSDT",
             "contractName": "COTI",
             "slug": "coti",
@@ -13761,7 +13846,7 @@
                 "INR",
                 "USDT"
             ],
-            "fundingFeeInterval": 1,
+            "fundingFeeInterval": 4,
             "maintenanceMarginConfig": [
                 {
                     "rangeStart": 1,
@@ -14183,6 +14268,91 @@
                 "USDT"
             ],
             "fundingFeeInterval": 8,
+            "maintenanceMarginConfig": [
+                {
+                    "rangeStart": 1,
+                    "rangeEnd": 5,
+                    "percentageValue": 10
+                },
+                {
+                    "rangeStart": 6,
+                    "rangeEnd": 25,
+                    "percentageValue": 20
+                },
+                {
+                    "rangeStart": 26,
+                    "rangeEnd": 75,
+                    "percentageValue": 25
+                },
+                {
+                    "rangeStart": 76,
+                    "rangeEnd": 100,
+                    "percentageValue": 30
+                },
+                {
+                    "rangeStart": 101,
+                    "rangeEnd": 150,
+                    "percentageValue": 35
+                }
+            ]
+        },
+        {
+            "name": "SAMSUNGUSDT",
+            "contractName": "Samsung Electronics Co Ltd",
+            "slug": "samsung-electronics-co-ltd-derivatives",
+            "tags": [
+                "New",
+                "Stocks"
+            ],
+            "filters": [
+                {
+                    "maxQty": "20000",
+                    "minQty": "0.01",
+                    "filterType": "LIMIT_QTY_SIZE"
+                },
+                {
+                    "maxQty": "2000",
+                    "minQty": "0.01",
+                    "filterType": "MARKET_QTY_SIZE"
+                },
+                {
+                    "limit": "200",
+                    "filterType": "MAX_NUM_ORDERS"
+                },
+                {
+                    "notional": "5.75",
+                    "filterType": "MIN_NOTIONAL"
+                }
+            ],
+            "makerFee": 0.02,
+            "takerFee": 0.06,
+            "baseAsset": "SAMSUNG",
+            "orderTypes": [
+                "LIMIT",
+                "MARKET"
+            ],
+            "quoteAsset": "USDT",
+            "maxLeverage": "20",
+            "contractType": "TRADIFI_PERPETUAL",
+            "marginBuffer": "0.01",
+            "depthGrouping": [
+                "0.01"
+            ],
+            "liquidationFee": "0.02",
+            "pricePrecision": "2",
+            "isDefaultContract": false,
+            "quantityPrecision": "2",
+            "limitPriceVarAllowed": "0.15",
+            "marginBufferPercentage": "1",
+            "maintenanceMarginPercentage": "35",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/samsung.png",
+            "reduceMarginAllowedRatioPercent": 20,
+            "market": "USDT",
+            "marginAssetsSupported": [
+                "INR",
+                "USDT"
+            ],
+            "fundingFeeInterval": 4,
             "maintenanceMarginConfig": [
                 {
                     "rangeStart": 1,
@@ -17095,7 +17265,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "547.4",
+                    "notional": "548.5500000000001",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -18841,6 +19011,91 @@
             ]
         },
         {
+            "name": "NVDAUSDT",
+            "contractName": "Nvdia Corporation",
+            "slug": "nvidia-derivatives",
+            "tags": [
+                "New",
+                "US Stocks"
+            ],
+            "filters": [
+                {
+                    "maxQty": "6000",
+                    "minQty": "0.01",
+                    "filterType": "LIMIT_QTY_SIZE"
+                },
+                {
+                    "maxQty": "600",
+                    "minQty": "0.01",
+                    "filterType": "MARKET_QTY_SIZE"
+                },
+                {
+                    "limit": "200",
+                    "filterType": "MAX_NUM_ORDERS"
+                },
+                {
+                    "notional": "5.75",
+                    "filterType": "MIN_NOTIONAL"
+                }
+            ],
+            "makerFee": 0.02,
+            "takerFee": 0.06,
+            "baseAsset": "NVDA",
+            "orderTypes": [
+                "LIMIT",
+                "MARKET"
+            ],
+            "quoteAsset": "USDT",
+            "maxLeverage": "10",
+            "contractType": "TRADIFI_PERPETUAL",
+            "marginBuffer": "0.01",
+            "depthGrouping": [
+                "0.01"
+            ],
+            "liquidationFee": "0.02",
+            "pricePrecision": "2",
+            "isDefaultContract": false,
+            "quantityPrecision": "2",
+            "limitPriceVarAllowed": "0.15",
+            "marginBufferPercentage": "1",
+            "maintenanceMarginPercentage": "35",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/nvda.png",
+            "reduceMarginAllowedRatioPercent": 20,
+            "market": "USDT",
+            "marginAssetsSupported": [
+                "INR",
+                "USDT"
+            ],
+            "fundingFeeInterval": 8,
+            "maintenanceMarginConfig": [
+                {
+                    "rangeStart": 1,
+                    "rangeEnd": 5,
+                    "percentageValue": 10
+                },
+                {
+                    "rangeStart": 6,
+                    "rangeEnd": 25,
+                    "percentageValue": 20
+                },
+                {
+                    "rangeStart": 26,
+                    "rangeEnd": 75,
+                    "percentageValue": 25
+                },
+                {
+                    "rangeStart": 76,
+                    "rangeEnd": 100,
+                    "percentageValue": 30
+                },
+                {
+                    "rangeStart": 101,
+                    "rangeEnd": 150,
+                    "percentageValue": 35
+                }
+            ]
+        },
+        {
             "name": "AMZNUSDT",
             "contractName": "Amazon.com",
             "slug": "amazon-com-inc-derivatives",
@@ -19058,6 +19313,91 @@
             "marginBufferPercentage": "1",
             "maintenanceMarginPercentage": "15",
             "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/ta.png",
+            "reduceMarginAllowedRatioPercent": 20,
+            "market": "USDT",
+            "marginAssetsSupported": [
+                "INR",
+                "USDT"
+            ],
+            "fundingFeeInterval": 4,
+            "maintenanceMarginConfig": [
+                {
+                    "rangeStart": 1,
+                    "rangeEnd": 5,
+                    "percentageValue": 10
+                },
+                {
+                    "rangeStart": 6,
+                    "rangeEnd": 25,
+                    "percentageValue": 20
+                },
+                {
+                    "rangeStart": 26,
+                    "rangeEnd": 75,
+                    "percentageValue": 25
+                },
+                {
+                    "rangeStart": 76,
+                    "rangeEnd": 100,
+                    "percentageValue": 30
+                },
+                {
+                    "rangeStart": 101,
+                    "rangeEnd": 150,
+                    "percentageValue": 35
+                }
+            ]
+        },
+        {
+            "name": "PONSUSDT",
+            "contractName": "pons",
+            "slug": "pons",
+            "tags": [
+                "New",
+                "Launchpad"
+            ],
+            "filters": [
+                {
+                    "maxQty": "1200000",
+                    "minQty": "1",
+                    "filterType": "LIMIT_QTY_SIZE"
+                },
+                {
+                    "maxQty": "120000",
+                    "minQty": "1",
+                    "filterType": "MARKET_QTY_SIZE"
+                },
+                {
+                    "limit": "200",
+                    "filterType": "MAX_NUM_ORDERS"
+                },
+                {
+                    "notional": "5.75",
+                    "filterType": "MIN_NOTIONAL"
+                }
+            ],
+            "makerFee": 0.02,
+            "takerFee": 0.06,
+            "baseAsset": "PONS",
+            "orderTypes": [
+                "LIMIT",
+                "MARKET"
+            ],
+            "quoteAsset": "USDT",
+            "maxLeverage": "10",
+            "contractType": "PERPETUAL",
+            "marginBuffer": "0.01",
+            "depthGrouping": [
+                "0.0001"
+            ],
+            "liquidationFee": "0.02",
+            "pricePrecision": "4",
+            "isDefaultContract": false,
+            "quantityPrecision": "0",
+            "limitPriceVarAllowed": "0.15",
+            "marginBufferPercentage": "1",
+            "maintenanceMarginPercentage": "35",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/pons.png",
             "reduceMarginAllowedRatioPercent": 20,
             "market": "USDT",
             "marginAssetsSupported": [
@@ -19515,6 +19855,91 @@
             ]
         },
         {
+            "name": "MARSCOINUSDT",
+            "contractName": "MarsCoin",
+            "slug": "marscoin-meme-bsc",
+            "tags": [
+                "Meme",
+                "Stocks"
+            ],
+            "filters": [
+                {
+                    "maxQty": "9000000",
+                    "minQty": "1",
+                    "filterType": "LIMIT_QTY_SIZE"
+                },
+                {
+                    "maxQty": "1500000",
+                    "minQty": "1",
+                    "filterType": "MARKET_QTY_SIZE"
+                },
+                {
+                    "limit": "200",
+                    "filterType": "MAX_NUM_ORDERS"
+                },
+                {
+                    "notional": "5.75",
+                    "filterType": "MIN_NOTIONAL"
+                }
+            ],
+            "makerFee": 0.02,
+            "takerFee": 0.06,
+            "baseAsset": "MARSCOIN",
+            "orderTypes": [
+                "LIMIT",
+                "MARKET"
+            ],
+            "quoteAsset": "USDT",
+            "maxLeverage": "10",
+            "contractType": "PERPETUAL",
+            "marginBuffer": "0.01",
+            "depthGrouping": [
+                "0.00001"
+            ],
+            "liquidationFee": "0.02",
+            "pricePrecision": "5",
+            "isDefaultContract": false,
+            "quantityPrecision": "0",
+            "limitPriceVarAllowed": "0.15",
+            "marginBufferPercentage": "1",
+            "maintenanceMarginPercentage": "35",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/marscoin.png",
+            "reduceMarginAllowedRatioPercent": 20,
+            "market": "USDT",
+            "marginAssetsSupported": [
+                "INR",
+                "USDT"
+            ],
+            "fundingFeeInterval": 4,
+            "maintenanceMarginConfig": [
+                {
+                    "rangeStart": 1,
+                    "rangeEnd": 5,
+                    "percentageValue": 10
+                },
+                {
+                    "rangeStart": 6,
+                    "rangeEnd": 25,
+                    "percentageValue": 20
+                },
+                {
+                    "rangeStart": 26,
+                    "rangeEnd": 75,
+                    "percentageValue": 25
+                },
+                {
+                    "rangeStart": 76,
+                    "rangeEnd": 100,
+                    "percentageValue": 30
+                },
+                {
+                    "rangeStart": 101,
+                    "rangeEnd": 150,
+                    "percentageValue": 35
+                }
+            ]
+        },
+        {
             "name": "SPCXUSDT",
             "contractName": "Space Exploration Technologies",
             "slug": "spacex",
@@ -19732,6 +20157,91 @@
             "marginBufferPercentage": "1",
             "maintenanceMarginPercentage": "15",
             "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/trust.png",
+            "reduceMarginAllowedRatioPercent": 20,
+            "market": "USDT",
+            "marginAssetsSupported": [
+                "INR",
+                "USDT"
+            ],
+            "fundingFeeInterval": 4,
+            "maintenanceMarginConfig": [
+                {
+                    "rangeStart": 1,
+                    "rangeEnd": 5,
+                    "percentageValue": 10
+                },
+                {
+                    "rangeStart": 6,
+                    "rangeEnd": 25,
+                    "percentageValue": 20
+                },
+                {
+                    "rangeStart": 26,
+                    "rangeEnd": 75,
+                    "percentageValue": 25
+                },
+                {
+                    "rangeStart": 76,
+                    "rangeEnd": 100,
+                    "percentageValue": 30
+                },
+                {
+                    "rangeStart": 101,
+                    "rangeEnd": 150,
+                    "percentageValue": 35
+                }
+            ]
+        },
+        {
+            "name": "FLOCKUSDT",
+            "contractName": "Flock.io",
+            "slug": "flock-io",
+            "tags": [
+                "AI",
+                "Big Data"
+            ],
+            "filters": [
+                {
+                    "maxQty": "20000000",
+                    "minQty": "1",
+                    "filterType": "LIMIT_QTY_SIZE"
+                },
+                {
+                    "maxQty": "2000000",
+                    "minQty": "1",
+                    "filterType": "MARKET_QTY_SIZE"
+                },
+                {
+                    "limit": "200",
+                    "filterType": "MAX_NUM_ORDERS"
+                },
+                {
+                    "notional": "5.75",
+                    "filterType": "MIN_NOTIONAL"
+                }
+            ],
+            "makerFee": 0.02,
+            "takerFee": 0.06,
+            "baseAsset": "FLOCK",
+            "orderTypes": [
+                "LIMIT",
+                "MARKET"
+            ],
+            "quoteAsset": "USDT",
+            "maxLeverage": "10",
+            "contractType": "PERPETUAL",
+            "marginBuffer": "0.01",
+            "depthGrouping": [
+                "0.00001"
+            ],
+            "liquidationFee": "0.02",
+            "pricePrecision": "5",
+            "isDefaultContract": false,
+            "quantityPrecision": "0",
+            "limitPriceVarAllowed": "0.15",
+            "marginBufferPercentage": "1",
+            "maintenanceMarginPercentage": "35",
+            "iconUrl": "https://storage.googleapis.com/pi42-prod-static/contract-icons/flock.png",
             "reduceMarginAllowedRatioPercent": 20,
             "market": "USDT",
             "marginAssetsSupported": [
@@ -20632,7 +21142,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "548.2624999999999",
+                    "notional": "549.125",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],
@@ -22647,7 +23157,7 @@
                     "filterType": "MAX_NUM_ORDERS"
                 },
                 {
-                    "notional": "547.1125000000001",
+                    "notional": "548.2624999999999",
                     "filterType": "MIN_NOTIONAL"
                 }
             ],

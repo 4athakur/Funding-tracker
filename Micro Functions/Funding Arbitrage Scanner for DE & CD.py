@@ -1,5 +1,4 @@
 import requests,json
-import pandas as pd
 #-------------------------------------------------------------------------------------------
 from config import absolute_common_items
 absolute_common_items=absolute_common_items()
@@ -8,7 +7,9 @@ common_exchange_symbol=['B-'+w+'_USDT' for w in absolute_common_items]
 url = "https://public.coindcx.com/market_data/v3/current_prices/futures/rt"
 resp = requests.get(url)
 data = resp.json()
-symbol = "B-HANA_USDT"   # try this format
+# with open("aaaqqqqqa.json",'w')as f:
+#     json.dump(data,f,indent=4)
+symbol = "B-HANA_USDT"   # try this format1
 a=data['prices'].keys()                         #stores symbol from CDX
 data_dict_from_DCX_for_fr_and_symbol={}
 #----------------------------------------------data_dict_from_DCX_for_fr_and_symbol-------------------
@@ -34,8 +35,9 @@ for i,j in data['prices'].items():
 headers = {'Accept': 'application/json'}
 r = requests.get('https://api.india.delta.exchange/v2/tickers', params={'contract_types':"perpetual_futures"}, headers = headers)
 data_delta_exchange=r.json()
-# with open("aaaa.json",'w')as f:
+# with open("aaaqqqqqa.json",'w')as f:
 #     json.dump(data_delta_exchange,f)
+
 c=0
 data_dict_from_DE_for_fr_and_symbol={}                                                  # delta exchange data is here
 for k in data_delta_exchange['result']:
@@ -65,7 +67,7 @@ for symbol, info in data["prices"].items():
     # if symbol == 'B-AIOT_USDT':                          set symbol condition filter here
     if(symbol in common_exchange_symbol and symbol in r):
      ii+=1
-     percentage=0.08  #                                        set percentage filter here
+     percentage=0.08 #                                        set percentage filter here
      diff=data_dict_from_DCX_for_fr_and_symbol[symbol]-converted_dict[symbol]
      res=abs(diff)
      if res >=percentage:
