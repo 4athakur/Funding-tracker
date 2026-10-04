@@ -100,7 +100,7 @@ for i in li:
      cdx = getting_fr_from_CDX_for_a_symbol("B-"+i[:-4]+"_USDT") or 0
      diff=abs(fr-cdx)
     #  print(f"\n{i} Funding Rate is: {fr:.5f} at CDX= {cdx }")
-     if diff>0.3:                                                # filtering adujustment for CDX and CS
+     if diff>0.1:                                                # filtering adujustment for CDX and CS
          print(f"\n{i} Funding Rate is: {fr:.5f} at CDX= {cdx }")
          print(f"Arbitrage Found 😃{diff}")
      if i[:-4] in common_symbol_CDX_DE_CS:

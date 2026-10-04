@@ -46,7 +46,13 @@ for k in data_delta_exchange['result']:
    data_dict_from_DE_for_fr_and_symbol.update({'B-'+k['symbol'][:-3]+'_USDT':k["funding_rate"]})
     # if float(k['funding_rate']) > 0.2 or float(k['funding_rate'])< -0.2:
     #  print(k['symbol']+" fundig rate is "+ k['funding_rate'])
-converted_dict = {k: float(v) for k, v in data_dict_from_DE_for_fr_and_symbol.items()}  # stroed symbol format (B-symbolname_USDT : float(fr)) hai
+converted_dict = {
+k: float(v)
+for k, v in data_dict_from_DE_for_fr_and_symbol.items() 
+if v is not None
+
+
+}
 print(f"Total items for fr status from delta exchane is: {c}")
 r=list(data_dict_from_DE_for_fr_and_symbol.keys()) 
 #--------------------------------------------------------------------------------------------------------
@@ -67,14 +73,14 @@ for symbol, info in data["prices"].items():
     # if symbol == 'B-AIOT_USDT':                          set symbol condition filter here
     if(symbol in common_exchange_symbol and symbol in r):
      ii+=1
-     percentage=0.08 #                                        set percentage filter here
+     percentage=0.06 #                                        set percentage filter here
      diff=data_dict_from_DCX_for_fr_and_symbol[symbol]-converted_dict[symbol]
      res=abs(diff)
      if res >=percentage:
         iii+=1
         print(f"Arbitrage Spoted with🔥{res:0.3f}% 🔥Funding rate {symbol} on     CoinDCX -> {data_dict_from_DCX_for_fr_and_symbol[symbol]} and           Delta Exchange -> {converted_dict[symbol]}")
     #  # print(f"{info.get('mkt')} {info.get('mp')} :Estimated Next Funding Rate = {fr_val:.6f}, Current Funding Rate on CDX = {efr_val:.6f}")
-print(f"\nTotal Results are: {iii}")
+print(f"\nTotal Results are: {iii} ")
 print(ii)
 
 
