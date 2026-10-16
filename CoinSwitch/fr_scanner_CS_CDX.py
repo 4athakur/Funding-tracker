@@ -10,8 +10,6 @@ common_exchange_symbol=['B-'+w+'_USDT' for w in absolute_common_items]
 
 #----------------------------Extracting FR from CDX-------------------------------------------
 
-# with open('info.json' , 'w') as f:
-#     json.dump(data,f,indent=4)
 def getting_fr_from_CDX_for_a_symbol(symbol):
     url = "https://public.coindcx.com/market_data/v3/current_prices/futures/rt"
     resp = requests.get(url)
@@ -23,7 +21,7 @@ def getting_fr_from_CDX_for_a_symbol(symbol):
     else:
         print(f"{symbol} not found in CDX data")
         return None
-#-------------------------------------------------------------------------------------
+#-----------------------------------------CoinSwitch integration--------------------------------------------
 
 BASE_URL='https://api-trading.coinswitch.co'
 API_KEY    = f"{credentials.api_key}"     # hex

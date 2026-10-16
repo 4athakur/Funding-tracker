@@ -1,5 +1,5 @@
 import requests,json
-symbol='B-ARIA_USDT'
+symbol='B-HANA_USDT'
 #____(PHASE 2)_______Fetching orderbook data from CDX for particular common symbo_______
 def fetch_l2_data_from_DE(symbo=symbol):
     headers = {'Accept': 'application/json'}

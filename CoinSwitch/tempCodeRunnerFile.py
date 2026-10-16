@@ -1,2 +1,2 @@
-ta'][f'{i}']['funding_rate'])*100
-     return fr
+
+from config import absolute_common_items
